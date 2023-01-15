@@ -36,6 +36,6 @@ if __name__ == '__main__':
     root = BinaryNode('Root')
     a = BinaryNode('A')
 
-    # Make "a" be the left child of "root."
+
     root.add_left(a)
     print(root)

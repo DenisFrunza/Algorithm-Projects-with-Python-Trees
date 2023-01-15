@@ -15,10 +15,8 @@ class NaryNode:
         return result
 
 if __name__ == '__main__':
-    # Create two nodes named "root" and "a".
     root = NaryNode('Root')
     a = NaryNode('A')
 
-    # Make "a" be the left child of "root."
     root.add_child(a)
     print(root)
